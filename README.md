@@ -6,8 +6,10 @@
 	não só possuem metodos mais tambem propriedades que possuem atributos e limitações para serem 
 	apresentados ao usuario.
 
-2 -
+2 - não lembro
 
 3 - Posso citar a integridade dos dados como um pilar da programação orientada a objetos,
 	sendo tanto para os usuario que tem suas informações protegidas no DB,
 	quanto para o banco que nessecita saber quem está pegando estes dados.
+
+	Alem da criação de tokens que monitoram o acesso do usuario
