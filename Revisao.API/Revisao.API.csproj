@@ -7,15 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="FileJsonData\**" />
+    <Content Remove="FileJsonData\**" />
+    <EmbeddedResource Remove="FileJsonData\**" />
+    <None Remove="FileJsonData\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="FileJsonData\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\src\Revisao.Application\Revisao.Application.csproj" />
+    <ProjectReference Include="..\src\Revisao.Data\Revisao.Data.csproj" />
   </ItemGroup>
 
 </Project>

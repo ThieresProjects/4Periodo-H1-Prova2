@@ -23,8 +23,8 @@ namespace Revisao.Domain.Entities
 		#endregion
 
 		#region Propriedades
-
-		public int primeiroNumero { get; private set; }
+		public int RegistroJogoID { get; private set; }
+        public int primeiroNumero { get; private set; }
 		public int segundoNumero { get; private set; }
 		public int terceiroNumero { get; private set; }
 		public int quartoNumero { get; private set; }
